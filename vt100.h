@@ -30,6 +30,9 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#ifndef VT100_H
+#define VT100_H
+
 #include <iostream>
 
 namespace vt100 {
@@ -210,3 +213,5 @@ namespace vt100 {
     auto ResetStrike = internal::Attribute(29);
 
 }
+
+#endif
